@@ -1,0 +1,168 @@
+.carousel {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.carousel-indicators  .cpt-thumb {
+    /*							position: relative;*/
+    /*							left: 140%;*/
+    width: 90px;
+    height: auto;
+    display: flex;
+    padding: 6px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.carousel-indicators   .active {
+    width: 90px;
+    height: auto;
+    border: 2px solid #Bfaf97;
+}
+
+.the-post-container {
+    min-height: 320px;
+}
+
+.collection-titles {
+    font-size: 14px;
+}
+
+.rk-range {
+    margin-right: -10%;
+}
+
+@media (max-width: 700px) {
+    .rk-range {
+        margin-right: 1%;
+    }
+}
+
+
+.img-container
+{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.gallery-img {
+    position: absolute;
+    margin: auto; 
+    top: 10%;
+/*
+    min-height: 100%;
+    min-width: 100%;
+*/
+   
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    /*
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    */
+}
+
+
+/*BLOG*/
+
+.single-post .entry-title, .page .entry-title {
+    font-size: 1.6em;
+
+}
+
+.blog-archive {
+    padding-top: 1em;;
+}
+
+#single-wrapper {
+    padding-top: 12%;
+}
+
+.widget-title {
+
+    font-size: 1.3rem;
+    padding: 1em 0;
+
+}
+
+.Heading, #reply-title {
+    font-size: 2em;
+    padding: 1em 0;
+
+}
+
+.nav-next {
+    /*    max-width: 50px;*/
+    margin-left: 25%;
+}
+
+.nav-title-icon-wrapper {
+    position: absolute;
+    text-align: center;
+    width: 2em;
+}
+
+.rsidebar-blog {
+    padding-top: 4em;
+}
+
+.blog-archive h2 {
+    font-size: 2em;
+    color: #000;
+    padding-top: 2em;
+}
+
+#single-wrapper img, .blog-archive img {
+    padding-bottom: 20px;
+}
+
+#single-wrapper p, .blog-archive p {
+    padding-bottom: .8em;
+}
+
+
+.menu-directory-container {
+    column-count: 3;
+    padding: 4em 0;
+
+}
+
+input, button, select, textarea {
+    outline: none;
+    padding: 1.2em;
+   
+}
+
+textarea {
+     width: 305%;
+}
+
+.wpcf7-submit {
+    position: relative;
+    z-index: 1;
+    border-width: 0;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    transition: .3s ease-out;
+    overflow: hidden;
+        border-width: 2px;
+    padding: 15px 28px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 0;
+    min-width: 197.6px;
+}
+
+.c-button {
+    display: flex;
+    justify-content: center;
+   
+}
