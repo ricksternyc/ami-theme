@@ -25,6 +25,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 			<main class="site-main" id="main">
 
+            
 				<?php if ( have_posts() ) : ?>
 
 					<header class="page-header">
